@@ -149,7 +149,7 @@ Custom property | Description | Default
 
     <div id="buttons">
       <div id="buttonsPrimary">
-        <div id="addFiles" on-tap="_onAddFilesClick">
+        <div id="addFiles" on-click="_onAddFilesClick">
           <slot name="add-button">
             <paper-button id="addButton" disabled$="[[maxFilesReached]]">
               [[_i18nPlural(maxFiles, i18n.addFiles, i18n.addFiles.*)]]
